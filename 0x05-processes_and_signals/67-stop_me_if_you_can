@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# bash script to top the 7-highlander process
+# requirements: you cannot use kill or killall
+
+pkill -f 7-highlander
