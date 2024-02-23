@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # bash script that displays string Best School 10 times
 
-string="Best School"
-num_times=10
-counter=1
-until (($counter > num_times)); do
-echo $string
-((counter++))
+export i=0
+until [ $i -ge 10 ]
+do
+	echo "Best School"
+	((i += 1))
 done
